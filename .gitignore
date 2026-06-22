@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+node_modules/
+web/dragos_dynamic.js.txt
+web/dragos_structured_builder.js.txt

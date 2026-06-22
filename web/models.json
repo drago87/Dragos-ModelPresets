@@ -1,0 +1,36 @@
+{
+    "base_model_settings": {
+        "steps": 20,
+        "cfg": 8.0,
+        "sampler_name": "euler",
+        "scheduler": "simple"
+    },
+    "models": {
+        "checkpoint_models": {
+            "photanima_v11Turbo": {
+                "model_type": "Other",
+                "notes": "",
+                "Test": {
+                    "turbo_lora": false,
+                    "steps": 20,
+                    "cfg": 8.0,
+                    "sampler_name": "euler",
+                    "scheduler": "simple"
+                }
+            },
+            "zImageUltimateNSFW_v20": {
+                "model_type": "Other",
+                "notes": "",
+                "Test": {
+                    "turbo_lora": false,
+                    "steps": 10,
+                    "cfg": 1.0,
+                    "sampler_name": "euler",
+                    "scheduler": "simple"
+                }
+            }
+        },
+        "diffusion_models": {},
+        "unet_models": {}
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "base_lora_settings": {
+        "strength_model": 1.0,
+        "strength_clip": 1.0
+    },
+    "loras": {
+        "Pussy_Peach_Front_v7_XL": {
+            "lora_type": [
+                "SDXL 1.0"
+            ],
+            "turbo_lora": false,
+            "strength_model": 1.0,
+            "notes": "",
+            "strength_clip": 1.0
+        }
+    }
+}

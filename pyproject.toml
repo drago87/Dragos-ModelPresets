@@ -1,0 +1,12 @@
+[project]
+name = "Dragos-ModelPresets"
+version = "1.0.0"
+description = "ComfyUI custom nodes for managing model and LoRA presets with recommended generation settings. Supports checkpoints, diffusion models, and GGUF UNet loading."
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/drdrago87/Dragos-ModelPresets"
+
+[tool.comfy]
+PublisherId = "drdrago87"
+DisplayName = "Dragos Model Presets"
